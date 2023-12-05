@@ -1,0 +1,224 @@
+[
+	{
+		"count":1,
+		"name": "Hedge Maze",
+		"category": ["area_unlocks"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Blackhope Tower",
+		"category": ["area_unlocks"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "The Archives",
+		"category": ["area_unlocks"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Wizard City Library",
+		"category": ["area_unlocks"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Ravenwood",
+		"category": ["area_unlocks"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Shopping District",
+		"category": ["area_unlocks"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Olde Town",
+		"category": ["area_unlocks"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Golem Court",
+		"category": ["area_unlocks"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Golem Tower",
+		"category": ["area_unlocks"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Caretaker's Tower",
+		"category": ["area_unlocks"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Duel Arena",
+		"category": ["area_unlocks"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Pet Pavilion",
+		"category": ["area_unlocks"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Triton Avenue",
+		"category": ["area_unlocks"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Haunted Cave",
+		"category": ["area_unlocks"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Galvanost Tower",
+		"category": ["area_unlocks"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Skull Fort",
+		"category": ["area_unlocks"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Upper-Lower Triton Avenue Teleporter",
+		"category": ["Teleports_And_Keys"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "High Ledge Teleporter",
+		"category": ["Teleports_And_Keys"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Kraken Isle Teleporter",
+		"category": ["Teleports_And_Keys"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Kennel Key",
+		"category": ["Teleports_And_Keys"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Hats",
+		"category": ["Equipment"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Robes",
+		"category": ["Equipment"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Boots",
+		"category": ["Equipment"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Wands (Except Starter)",
+		"category": ["Equipment"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Athames",
+		"category": ["Equipment"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Amulets",
+		"category": ["Equipment"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Rings",
+		"category": ["Equipment"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Pets",
+		"category": ["Equipment"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Decks (Except Starter)",
+		"category": ["Equipment"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Go to The Commons Button",
+		"category": ["Equipment"],
+		"progression_skip_balancing": true
+	},
+	{
+		"count":1,
+		"name": "Go Home Button",
+		"category": ["Equipment"],
+		"progression_skip_balancing": true
+	},
+	{
+		"count":1,
+		"name": "Mark Location Button",
+		"category": ["Equipment"],
+		"progression_skip_balancing": true
+	},
+	{
+		"count":1,
+		"name": "Teleport to Marked Location Button",
+		"category": ["Equipment"],
+		"progression_skip_balancing": true
+	},
+	{
+		"count":1,
+		"name": "Flasks",
+		"category": ["Equipment"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "One Pip Treasure Cards",
+		"category": ["Equipment","Progressive_Cards"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Two Pip Treasure Cards",
+		"category": ["Equipment","Progressive_Cards"],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Three Pip Treasure Cards",
+		"category": ["Equipment","Progressive_Cards"],
+		"useful": true
+	}
+]

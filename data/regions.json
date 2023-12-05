@@ -1,0 +1,79 @@
+{
+	"The Commons": 	{
+		"starting": true,
+		"connects_to": ["Unicorn Way","Wizard City Library","Ravenwood","Shopping District","Golem Court","Pet Pavilion"],
+		"requires": []
+	},
+	"Unicorn Way": 	{
+		"connects_to": ["The Commons","Hedge Maze","Blackhope Tower","The Archives","Duel Arena"],
+		"requires": []
+	},
+	"Hedge Maze": 	{
+		"connects_to": ["Unicorn Way"],
+		"requires": "|Hedge Maze|"
+	},
+	"Blackhope Tower": 	{
+		"connects_to": ["Unicorn Way"],
+		"requires": "|Blackhope Tower|"
+	},
+	"The Archives": 	{
+		"connects_to": ["Unicorn Way"],
+		"requires": "|The Archives|"
+	},
+	"Wizard City Library": 	{
+		"connects_to": ["The Commons"],
+		"requires": "|Wizard City Library|"
+	},
+	"Ravenwood": 	{
+		"connects_to": ["The Commons"],
+		"requires": "|Ravenwood|"
+	},
+	"Shopping District": 	{
+		"connects_to": ["The Commons","Olde Town"],
+		"requires": "|Shopping District|"
+	},
+	"Olde Town": 	{
+		"connects_to": ["Shopping District","Triton Avenue (Lower)"],
+		"requires": "|Olde Town|"
+	},
+	"Golem Court": 	{
+		"connects_to": ["The Commons","Golem Tower"],
+		"requires": "|Golem Court|"
+	},
+	"Golem Tower": 	{
+		"connects_to": ["Golem Court"],
+		"requires": "|Golem Tower|"
+	},
+	"Caretaker's Tower": 	{
+		"connects_to": ["Olde Town"],
+		"requires": "|Caretaker's Tower| AND |Olde Town|"
+	},
+	"Duel Arena": 	{
+		"connects_to": ["Unicorn Way"],
+		"requires": "|Duel Arena|"
+	},
+	"Pet Pavilion": 	{
+		"connects_to": ["The Commons"],
+		"requires": "|Pet Pavilion|"
+	},
+	"Triton Avenue (Lower)": 	{
+		"connects_to": ["Olde Town","Triton Avenue (Upper)","Skull Fort"],
+		"requires": "|Triton Avenue|"
+	},
+	"Triton Avenue (Upper)": 	{
+		"connects_to": ["Triton Avenue (Lower)","Haunted Cave","Galvanost Tower"],
+		"requires": "|Triton Avenue| AND |Upper-Lower Triton Avenue Teleporter|"
+	},
+	"Haunted Cave": 	{
+		"connects_to": ["Triton Avenue (Upper)"],
+		"requires": "|Haunted Cave| AND |Upper-Lower Triton Avenue Teleporter| AND |Olde Town| AND |Shopping District|"
+	},
+	"Galvanost Tower": 	{
+		"connects_to": ["Triton Avenue (Upper)"],
+		"requires": "|Galvanost Tower| AND |Triton Avenue|"
+	},
+	"Skull Fort": 	{
+		"connects_to": ["Triton Avenue (Lower)"],
+		"requires": "|Skull Fort| AND |Triton Avenue|"
+}
+}

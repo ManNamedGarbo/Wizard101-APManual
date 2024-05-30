@@ -1,2 +1,6 @@
-
-	{"game": "Wizard101","creator": "Garbo","filler_item_name": "Restart Game Trap"}
+{
+  "game": "Wizard101FreeToPlay",
+  "creator": "Garbo",
+  "filler_item_name": "Gold",
+  "death_link": true
+}

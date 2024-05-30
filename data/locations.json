@@ -1,324 +1,386 @@
 [
 	{
-		"name": "Smith - Unicorn Way",
+		"name": "Quest - Unicorn Way",
 		"region": "The Commons",
-		"category": ["Collectables"],
+		"category": ["Quest_Completion"],
+		"requires": []
+	},
+	{
+		"name": "Quest - Ghost Hunters",
+		"region": "Unicorn Way",
+		"category": ["Quest_Completion"],
+		"requires": []
+	},
+	{
+		"name": "Quest - Skeleton Crew",
+		"region": "Unicorn Way",
+		"category": ["Quest_Completion"],
+		"requires": []
+	},
+	{
+		"name": "Quest - Pesky Pirates",
+		"region": "Unicorn Way",
+		"category": ["Quest_Completion"],
+		"requires": []
+	},
+	{
+		"name": "Quest - Monsters and Mazes",
+		"region": "Hedge Maze",
+		"category": ["Quest_Completion"],
+		"requires": "|Hedge Maze Access|"
+	},
+	{
+		"name": "Quest - Saving Private O'Ryan",
+		"region": "Blackhope Tower",
+		"category": ["Quest_Completion"],
+		"requires": "|Blackhope Tower Access|",
+		"place_item_category": ["Equipment"]
+	},
+	{
+		"name": "Quest - Finding Out Why",
+		"region": "Hedge Maze",
+		"category": ["Quest_Completion"],
+		"requires": "|Hedge Maze Access|"
+	},
+	{
+		"name": "Quest - Who Could It Be Now?",
+		"region": "Hedge Maze",
+		"category": ["Quest_Completion"],
+		"requires": "|Hedge Maze Access|"
+	},
+	{
+		"name": "Quest - Sinister Skeleton",
+		"region": "The Archives",
+		"category": ["Quest_Completion"],
+		"requires": "|The Archives Access|",
+		"place_item_category": ["Equipment"]
+	},
+	{
+		"name": "Quest - Grim Tales",
+		"region": "Wizard City Library",
+		"category": ["Quest_Completion"],
+		"requires": "|Wizard City Library Access|"
+	},
+	{
+		"name": "Quest - Yellow Brick Road",
+		"region": "Unicorn Way",
+		"category": ["Quest_Completion"],
+		"requires": "|Hedge Maze Access| AND |Blackhope Tower Access|"
+	},
+	{
+		"name": "Quest - Not In Kansas Anymore",
+		"region": "The Commons",
+		"category": ["Quest_Completion"],
+		"requires": "|Hedge Maze Access| AND |Blackhope Tower Access|"
+	},
+	{
+		"name": "Quest - To Ravenwood!",
+		"region": "Ravenwood",
+		"category": ["Quest_Completion"],
+		"requires": "|Ravenwood Access| AND |The Archives Access| AND |Hedge Maze Access| AND |Unicorn Way Complete|"
+	},
+	{
+		"name": "Quest - Panic in Three Streets!",
+		"region": "Olde Town",
+		"category": ["Quest_Completion"],
+		"requires": "|Ravenwood Access| AND |The Archives Access| AND |Hedge Maze Access| AND |Shopping District Access| AND |Olde Town Access| AND |Unicorn Way Complete|"
+	},
+	{
+		"name": "Quest - City Tour",
+		"region": "The Commons",
+		"category": ["Quest_Completion"],
+		"requires": "|Ravenwood Access| AND |The Archives Access| AND |Hedge Maze Access| AND |Shopping District Access| AND |Olde Town Access| AND |Unicorn Way Complete|"
+	},
+	{
+		"name": "Quest - Ready, Aim, Shoot!",
+		"region": "Golem Court",
+		"category": ["Quest_Completion"],
+		"requires": "|Ravenwood Access| AND |The Archives Access| AND |Hedge Maze Access| AND |Golem Court Access| AND |Unicorn Way Complete|"
+	},
+	{
+		"name": "Quest - Say Cheese!",
+		"region": "Golem Court",
+		"category": ["Quest_Completion"],
+		"requires": "|Ravenwood Access| AND |The Archives Access| AND |Hedge Maze Access| AND |Golem Court Access| AND |Unicorn Way Complete|"
+	},
+	{
+		"name": "Quest - Secret Strife of Pets",
+		"region": "Olde Town",
+		"category": ["Quest_Completion"],
+		"requires": "|Caretaker's Tower Access| AND |Olde Town Access| AND |Unicorn Way Complete| AND |Caretaker's Tower Key|"
+	},
+	{
+		"name": "Quest - Trouble on Triton Avenue",
+		"region": "Olde Town",
+		"category": ["Quest_Completion"],
+		"requires": "|Ravenwood Access| AND |The Archives Access| AND |Hedge Maze Access| AND |Shopping District Access| AND |Olde Town Access| AND |Triton Avenue Access| AND |Unicorn Way Complete|"
+	},
+	{
+		"name": "Quest - Wizards In The Mist",
+		"region": "Olde Town",
+		"category": ["Quest_Completion"],
+		"requires": "|Ravenwood Access| AND |The Archives Access| AND |Hedge Maze Access| AND |Shopping District Access| AND |Olde Town Access| AND |Unicorn Way Complete|"
+	},
+	{
+		"name": "Quest - The Razor's Edge",
+		"region": "Your Home",
+		"category": ["Quest_Completion"],
+		"requires": "|Ravenwood Access| AND |The Archives Access| AND |Hedge Maze Access| AND |Shopping District Access| AND |Olde Town Access| AND |Your Home Access| AND |Unicorn Way Complete|"
+	},
+	{
+		"name": "Quest - Hey, Penny",
+		"region": "The Commons",
+		"category": ["Quest_Completion"],
+		"requires": "|Ravenwood Access| AND |The Archives Access| AND |Hedge Maze Access| AND |Shopping District Access| AND |Olde Town Access| AND |Unicorn Way Complete|"
+	},
+	{
+		"name": "Quest - Dreadful Assignment",
+		"region": "The Commons",
+		"category": ["Quest_Completion"],
+		"requires": "|Ravenwood Access| AND |The Archives Access| AND |Hedge Maze Access| AND |Shopping District Access| AND |Olde Town Access| AND |Triton Avenue Access| AND |Haunted Cave Access| AND |Unicorn Way Complete|"
+	},
+	{
+		"name": "Quest - Diego the Duelmaster",
+		"region": "Duel Arena",
+		"category": ["Quest_Completion"],
+		"requires": "|Unicorn Way Complete| AND |Duel Arena Access|"
+	},
+	{
+		"name": "Quest - Advanced Combat",
+		"region": "Duel Arena",
+		"category": ["Quest_Completion"],
+		"requires": "|Unicorn Way Complete| AND |Duel Arena Access|"
+	},
+	{
+		"name": "Quest - Pet Sounds",
+		"region": "Pet Pavilion",
+		"category": ["Quest_Completion"],
+		"requires": "|Unicorn Way Complete| AND |Pet Pavilion Access|"
+	},
+	{
+		"name": "Quest - Walkabout",
+		"region": "Golem Court",
+		"category": ["Quest_Completion"],
+		"requires": "|Unicorn Way Complete| AND |Olde Town Access| AND |Shopping District Access| AND |Wizard City Library Access| AND |Golem Court Access|"
+	},
+	{
+		"name": "Quest - Science Fair",
+		"region": "Golem Court",
+		"category": ["Quest_Completion"],
+		"requires": "|Unicorn Way Complete| AND |Golem Court Access|"
+	},
+	{
+		"name": "Quest - Second Gear",
+		"region": "Golem Court",
+		"category": ["Quest_Completion"],
+		"requires": "|Unicorn Way Complete| AND |Golem Court Access|"
+	},
+	{
+		"name": "Quest - The Final Piece",
+		"region": "Golem Court",
+		"category": ["Quest_Completion"],
+		"requires": "|Unicorn Way Complete| AND |Golem Court Access|",
+		"place_item_category": ["Equipment"]
+	},
+	{
+		"name": "Quest - A Wizard's Best Friend",
+		"region": "Pet Pavilion",
+		"category": ["Quest_Completion"],
+		"requires": "|Unicorn Way Complete| AND |Pet Pavilion Access|"
+	},
+	{
+		"name": "Quest - Menacing Minions",
+		"region": "Triton Avenue",
+		"category": ["Quest_Completion"],
+		"requires": "|Ravenwood Access| AND |The Archives Access| AND |Hedge Maze Access| AND |Shopping District Access| AND |Olde Town Access| AND |Triton Avenue Access| AND |Unicorn Way Complete|"
+	},
+	{
+		"name": "Quest - The Shadow of Death Magic",
+		"region": "Triton Avenue",
+		"category": ["Quest_Completion"],
+		"requires": "|Ravenwood Access| AND |The Archives Access| AND |Hedge Maze Access| AND |Shopping District Access| AND |Olde Town Access| AND |Triton Avenue Access| AND |Unicorn Way Complete|"
+	},
+	{
+		"name": "Quest - All The Eels",
+		"region": "Triton Avenue",
+		"category": ["Quest_Completion","Victory_Requirements"],
+		"requires": "|Ravenwood Access| AND |The Archives Access| AND |Hedge Maze Access| AND |Shopping District Access| AND |Olde Town Access| AND |Triton Avenue Access| AND |Unicorn Way Complete|"
+	},
+	{
+		"name": "Quest - Wayward Barrels",
+		"region": "Triton Avenue",
+		"category": ["Quest_Completion","Victory_Requirements"],
+		"requires": "|Ravenwood Access| AND |The Archives Access| AND |Hedge Maze Access| AND |Shopping District Access| AND |Olde Town Access| AND |Triton Avenue Access| AND |Unicorn Way Complete|"
+	},
+	{
+		"name": "Quest - Quest for Clues",
+		"region": "Triton Avenue",
+		"category": ["Quest_Completion"],
+		"requires": "|Ravenwood Access| AND |The Archives Access| AND |Hedge Maze Access| AND |Shopping District Access| AND |Olde Town Access| AND |Triton Avenue Access| AND |Unicorn Way Complete|"
+	},
+	{
+		"name": "Quest - A Scrap of Trouble",
+		"region": "Skull Fort",
+		"category": ["Quest_Completion"],
+		"requires": "|Ravenwood Access| AND |The Archives Access| AND |Hedge Maze Access| AND |Shopping District Access| AND |Olde Town Access| AND |Triton Avenue Access| AND |Unicorn Way Complete| AND |Skull Fort Access|"
+	},
+	{
+		"name": "Quest - Catching a Glimpse",
+		"region": "Triton Avenue",
+		"category": ["Quest_Completion"],
+		"requires": "|Ravenwood Access| AND |The Archives Access| AND |Hedge Maze Access| AND |Shopping District Access| AND |Olde Town Access| AND |Triton Avenue Access| AND |Unicorn Way Complete| AND |Skull Fort Access|"
+	},
+	{
+		"name": "Quest - Clear as Crystal",
+		"region": "Triton Avenue",
+		"category": ["Quest_Completion"],
+		"requires": "|Ravenwood Access| AND |The Archives Access| AND |Hedge Maze Access| AND |Shopping District Access| AND |Olde Town Access| AND |Triton Avenue Access| AND |Unicorn Way Complete| AND |Skull Fort Access|"
+	},
+	{
+		"name": "Quest - Luminate",
+		"region": "Triton Avenue",
+		"category": ["Quest_Completion"],
+		"requires": "|Ravenwood Access| AND |The Archives Access| AND |Hedge Maze Access| AND |Shopping District Access| AND |Olde Town Access| AND |Triton Avenue Access| AND |Unicorn Way Complete| AND |Skull Fort Access|"
+	},
+	{
+		"name": "Quest - The Enemy Revealed",
+		"region": "Galvanost Tower",
+		"category": ["Quest_Completion"],
+		"requires": "|Ravenwood Access| AND |The Archives Access| AND |Hedge Maze Access| AND |Shopping District Access| AND |Olde Town Access| AND |Triton Avenue Access| AND |Unicorn Way Complete| AND |Skull Fort Access| AND |Galvanost Tower Access|"
+	},
+	{
+		"name": "Quest - To Tame a Tempest",
+		"region": "Ravenwood",
+		"category": ["Quest_Completion"],
+		"requires": "|Ravenwood Access| AND |The Archives Access| AND |Hedge Maze Access| AND |Shopping District Access| AND |Olde Town Access| AND |Triton Avenue Access| AND |Unicorn Way Complete| AND |Skull Fort Access| AND |Galvanost Tower Access|"
+	},
+	{
+		"name": "Quest - Triton Report",
+		"region": "Olde Town",
+		"category": ["Quest_Completion"],
+		"requires": "|Ravenwood Access| AND |The Archives Access| AND |Hedge Maze Access| AND |Shopping District Access| AND |Olde Town Access| AND |Triton Avenue Access| AND |Unicorn Way Complete| AND |Skull Fort Access| AND |Galvanost Tower Access|"
+	},
+	{
+		"name": "Quest - Haunting Questions",
+		"region": "Haunted Cave",
+		"category": ["Quest_Completion"],
+		"requires": "|Ravenwood Access| AND |The Archives Access| AND |Hedge Maze Access| AND |Shopping District Access| AND |Olde Town Access| AND |Triton Avenue Access| AND |Unicorn Way Complete| AND |Skull Fort Access| AND |Galvanost Tower Access| AND |Haunted Cave Access|"
+	},
+	{
+		"name": "Quest - Better Get Kraken",
+		"region": "Triton Avenue",
+		"category": ["Quest_Completion","Victory_Requirements"],
+		"requires": "|Ravenwood Access| AND |The Archives Access| AND |Hedge Maze Access| AND |Shopping District Access| AND |Olde Town Access| AND |Triton Avenue Access| AND |Unicorn Way Complete|"
+	},
+	{
+		"name": "Quest - Decease the Kraken",
+		"victory": true,
+		"region": "Kraken Isle",
+		"category": ["Quest_Completion","Victory_Requirements"],
+		"requires": "|Kraken Isle Key Piece:5| AND |Ravenwood Access| AND |The Archives Access| AND |Hedge Maze Access| AND |Shopping District Access| AND |Olde Town Access| AND |Triton Avenue Access| AND |Unicorn Way Complete| AND |Haunted Cave Access| AND |Skull Fort Access| AND |@Equipment:3|"
+	},
+	{
+		"name": "Zone Complete - Unicorn Way",
+		"region": "The Commons",
+		"category": ["Zone_Completion","Logic_Only"],
+		"requires": "|Blackhope Tower Access| AND |Wizard City Library Access| AND |Ravenwood Access| AND |The Archives Access| AND |Hedge Maze Access|",
+		"place_item": ["Unicorn Way Complete"]
+	},
+	{
+		"name": "Zone Complete - Triton Avenue",
+		"region": "Triton Avenue",
+		"category": ["Zone_Completion","Logic_Only"],
+		"requires": "|Ravenwood Access| AND |The Archives Access| AND |Hedge Maze Access| AND |Shopping District Access| AND |Olde Town Access| AND |Triton Avenue Access| AND |Unicorn Way Complete| AND |Haunted Cave Access|",
+		"place_item": ["Triton Avenue Complete"]
+	},
+	{
+		"name": "Smith - Unicorn Way",
+		"region": "Unicorn Way",
+		"category": ["Smith_Quest"],
 		"requires": []
 	},
 	{
 		"name": "Smith - Golem Court",
 		"region": "Golem Court",
-		"category": ["Collectables"],
-		"requires": "|Golem Court|"
+		"category": ["Smith_Quest"],
+		"requires": "|Golem Court Access|"
 	},
 	{
 		"name": "Smith - Ravenwood",
 		"region": "Ravenwood",
-		"category": ["Collectables"],
-		"requires": "|Ravenwood|"
+		"category": ["Smith_Quest"],
+		"requires": "|Ravenwood Access|"
 	},
 	{
 		"name": "Smith - The Commons",
 		"region": "The Commons",
-		"category": ["Collectables"],
+		"category": ["Smith_Quest"],
 		"requires": []
 	},
 	{
 		"name": "Smith - Shopping District",
-		"region": "Shopping District",
-		"category": ["Collectables"],
-		"requires": "|Shopping District|"
+		"category": ["Smith_Quest"],
+		"requires": "|Shopping District Access|",
+		"region": "Shopping District"
 	},
 	{
 		"name": "Smith - Olde Town",
-		"region": "Olde Town",
-		"category": ["Collectables"],
-		"requires": "|Olde Town|"
+		"category": ["Smith_Quest"],
+		"requires": "|Olde Town Access| AND |Shopping District Access|",
+		"region": "Olde Town"
 	},
 	{
-		"name": "Smith - Triton Avenue",
-		"region": "Triton Avenue (Upper)",
-		"category": ["Collectables"],
-		"requires": "|Triton Avenue| AND |Upper-Lower Triton Avenue Teleporter|"
+		"name": "Quest - Find the Smiths",
+		"region": "The Commons",
+		"category": ["Smith_Quest"],
+		"requires": "|Olde Town Access| AND |Shopping District Access| AND |Ravenwood Access| AND |Golem Court Access|"
 	},
 	{
-		"name": "History of Magic - Blackhope Tower",
-		"region": "Blackhope Tower",
-		"category": ["Collectables"],
-		"requires": "|Blackhope Tower| AND |Hedge Maze|"
-	},
-	{
-		"name": "History of Magic - Triton Avenue",
-		"region": "Galvanost Tower",
-		"category": ["Collectables"],
-		"requires": "|Galvanost Tower| AND |Triton Avenue| AND |Upper-Lower Triton Avenue Teleporter| AND |Olde Town| AND |Shopping District|"
-	},
-	{
-		"name": "Spend a Training Point",
+		"name": "Quest - Buried Truth",
 		"region": "Ravenwood",
-		"category": ["Tasks"],
-		"requires": "|Ravenwood|"
+		"category": ["Quest_Completion","Death"],
+		"requires": "|Ravenwood Access| AND |Unicorn Way Complete| AND |Shopping District Access| AND |Olde Town Access| AND |Triton Avenue Access| AND |Haunted Cave Access|"
 	},
 	{
-		"name": "Open a Wooden Chest",
-		"region": "Unicorn Way",
-		"category": ["Tasks"],
-		"requires": []
+		"name": "Quest - Introduction to Balance",
+		"region": "Ravenwood",
+		"category": ["Quest_Completion","Balance"],
+		"requires": "|Ravenwood Access| AND |Unicorn Way Complete| AND |Golem Court Access| AND |Wizard City Library Access|"
 	},
 	{
-		"name": "Kennel Key",
-		"region": "Caretaker's Tower",
-		"category": ["Keys"],
-		"requires": "|Pets| AND |Caretaker's Tower|"
+		"name": "Quest - Introduction to Ice",
+		"region": "Ravenwood",
+		"category": ["Quest_Completion","Ice"],
+		"requires": "|Ravenwood Access| AND |Unicorn Way Complete| AND |Shopping District Access|"
 	},
 	{
-		"name": "Quest: Unicorn Way",
-		"region": "Unicorn Way",
-		"category": ["Quest_Completion"],
-		"requires": []
+		"name": "Quest - Introduction to Fire",
+		"region": "Ravenwood",
+		"category": ["Quest_Completion","Fire"],
+		"requires": "|Ravenwood Access| AND |Unicorn Way Complete| AND |Golem Court Access|"
 	},
 	{
-		"name": "Quest: Ghost Hunters",
-		"region": "Unicorn Way",
-		"category": ["Quest_Completion"],
-		"requires": []
+		"name": "Quest - Leyden Lab",
+		"region": "Ravenwood",
+		"category": ["Quest_Completion","Storm"],
+		"requires": "|Ravenwood Access| AND |Unicorn Way Complete| AND |Hedge Maze Access|"
 	},
 	{
-		"name": "Quest: Skeleton Crew",
-		"region": "Unicorn Way",
-		"category": ["Quest_Completion"],
-		"requires": []
+		"name": "Quest - Charge It Up",
+		"region": "Wizard City Library",
+		"category": ["Quest_Completion","Storm"],
+		"requires": "|Ravenwood Access| AND |Unicorn Way Complete| AND |Wizard City Library Access|"
 	},
 	{
-		"name": "Quest: Pesky Pirates",
-		"category": ["Quest_Completion"],
-		"requires": []
+		"name": "Quest - Not so Welcome to Myth",
+		"region": "Ravenwood",
+		"category": ["Quest_Completion","Myth"],
+		"requires": "|Ravenwood Access| AND |Unicorn Way Complete| AND |Wizard City Library Access| AND |Hedge Maze Access|"
 	},
 	{
-		"name": "Quest: Monsters and Mazes",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: Saving Private O'Ryan",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: Finding Out Why",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: Who Could It Be Now?",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: Sinister Skeleton",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: Grim Tales",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: Yellow Brick Road",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: Not In Kansas Anymore",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: To Ravenwood!",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: Panic In Three Streets!",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: City Tour",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: Say Cheese!",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: Ready, Aim, Shoot!",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: Secret Strife of Pets",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: Trouble On Triton Avenue",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: Wizards In The Mist",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: The Razor's Edge",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: Hey, Penny",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: Dreadful Assignment",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: Diego the Duelmaster",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: Advanced Combat",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: Pet Sounds",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: Walkabout",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: Science Fair",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: Second Gear",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: The Final Piece",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: A Wizard's Best Friend",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: Menacing Minions",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: The Shadow of Death Magic",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: All The Eels",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: Wayward Barrels",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: Quest for Clues",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: A Scrap Of Trouble",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: Catching A Glimpse",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: Clear As Crystal",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: Luminate",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: The Enemy Revealed",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: To Tame A Tempest",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: Triton Report",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: Haunting Questions",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: Better Get Kraken",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Quest: Decease The Kraken!",
-		"victory": true,
-		"region": "Triton Avenue (Lower)",
-		"category": ["Quest_Completion"],
-		"requires": "|Upper-Lower Triton Avenue Teleporter| AND |Triton Avenue| AND |Olde Town| AND |Shopping District| AND |Galvanost Tower| AND |Skull Fort| AND |Kraken Isle Teleporter|"
-	},
-	{
-		"name": "Quest: Secret Of The Cave",
-		"category": ["Quest_Completion"],
-		"requires": []
-	},
-	{
-		"name": "Collect a Material",
-		"region": "Unicorn Way",
-		"category": ["Tasks"],
-		"requires": []
-	},
-	{
-		"category": [],
-		"requires": []
+		"name": "Quest - Introduction to Life",
+		"region": "Ravenwood",
+		"category": ["Quest_Completion","Life"],
+		"requires": "|Ravenwood Access| AND |Unicorn Way Complete|"
 	}
 ]

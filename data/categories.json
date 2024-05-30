@@ -1,0 +1,23 @@
+{
+    "Death": {
+        "yaml_option": ["Start_as_Death_Wizard"]
+    },
+    "Balance": {
+        "yaml_option": ["Start_as_Balance_Wizard"]
+    },
+    "Ice": {
+        "yaml_option": ["Start_as_Ice_Wizard"]
+    },
+    "Fire": {
+        "yaml_option": ["Start_as_Fire_Wizard"]
+    },
+    "Storm": {
+        "yaml_option": ["Start_as_Storm_Wizard"]
+    },
+    "Myth": {
+        "yaml_option": ["Start_as_Myth_Wizard"]
+    },
+    "Life": {
+        "yaml_option": ["Start_as_Life_Wizard"]
+    }
+}

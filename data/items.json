@@ -212,43 +212,43 @@
 	{
 		"count":1,
 		"name": "Unlock Fire Training Points",
-		"category": ["Equipment","Death","Balance","Ice","Storm","Myth","Life"],
+		"category": ["Equipment","Training_Points"],
 		"useful": true
 	},
 	{
 		"count":1,
 		"name": "Unlock Ice Training Points",
-		"category": ["Equipment","Death","Balance","Fire","Storm","Myth","Life"],
+		"category": ["Equipment","Training_Points"],
 		"useful": true
 	},
 	{
 		"count":1,
 		"name": "Unlock Storm Training Points",
-		"category": ["Equipment","Death","Balance","Ice","Fire","Myth","Life"],
+		"category": ["Equipment","Training_Points"],
 		"useful": true
 	},
 	{
 		"count":1,
 		"name": "Unlock Balance Training Points",
-		"category": ["Equipment","Death","Ice","Fire","Storm","Myth","Life"],
+		"category": ["Equipment","Training_Points"],
 		"useful": true
 	},
 	{
 		"count":1,
 		"name": "Unlock Myth Training Points",
-		"category": ["Equipment","Death","Balance","Ice","Fire","Storm","Life"],
+		"category": ["Equipment","Training_Points"],
 		"useful": true
 	},
 	{
 		"count":1,
 		"name": "Unlock Death Training Points",
-		"category": ["Equipment","Balance","Ice","Fire","Storm","Myth","Life"],
+		"category": ["Equipment","Training_Points"],
 		"useful": true
 	},
 	{
 		"count":1,
 		"name": "Unlock Life Training Points",
-		"category": ["Equipment","Death","Balance","Ice","Fire","Storm","Myth"],
+		"category": ["Equipment","Training_Points"],
 		"useful": true
 	}
 ]

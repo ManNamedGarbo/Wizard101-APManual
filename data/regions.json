@@ -5,7 +5,7 @@
 		"requires": []
 	},
 	"Unicorn Way": 	{
-		"connects_to": ["Hedge Maze","Blackhope Tower","The Archives","Your Home","The Commons"],
+		"connects_to": ["Hedge Maze","Blackhope Tower","The Archives","Your Home","The Commons","Duel Arena"],
 		"requires": []
 	},
 	"Hedge Maze": 	{
@@ -79,5 +79,5 @@
 	"Duel Arena": 	{
 		"connects_to": ["Unicorn Way","Your Home","The Commons"],
 		"requires": "|Duel Arena Access|"
-}
+    }
 }

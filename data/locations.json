@@ -334,53 +334,5 @@
 		"region": "The Commons",
 		"category": ["Smith_Quest"],
 		"requires": "|Olde Town Access| AND |Shopping District Access| AND |Ravenwood Access| AND |Golem Court Access|"
-	},
-	{
-		"name": "Quest - Buried Truth",
-		"region": "Ravenwood",
-		"category": ["Quest_Completion","Death"],
-		"requires": "|Ravenwood Access| AND |Unicorn Way Complete| AND |Shopping District Access| AND |Olde Town Access| AND |Triton Avenue Access| AND |Haunted Cave Access|"
-	},
-	{
-		"name": "Quest - Introduction to Balance",
-		"region": "Ravenwood",
-		"category": ["Quest_Completion","Balance"],
-		"requires": "|Ravenwood Access| AND |Unicorn Way Complete| AND |Golem Court Access| AND |Wizard City Library Access|"
-	},
-	{
-		"name": "Quest - Introduction to Ice",
-		"region": "Ravenwood",
-		"category": ["Quest_Completion","Ice"],
-		"requires": "|Ravenwood Access| AND |Unicorn Way Complete| AND |Shopping District Access|"
-	},
-	{
-		"name": "Quest - Introduction to Fire",
-		"region": "Ravenwood",
-		"category": ["Quest_Completion","Fire"],
-		"requires": "|Ravenwood Access| AND |Unicorn Way Complete| AND |Golem Court Access|"
-	},
-	{
-		"name": "Quest - Leyden Lab",
-		"region": "Ravenwood",
-		"category": ["Quest_Completion","Storm"],
-		"requires": "|Ravenwood Access| AND |Unicorn Way Complete| AND |Hedge Maze Access|"
-	},
-	{
-		"name": "Quest - Charge It Up",
-		"region": "Wizard City Library",
-		"category": ["Quest_Completion","Storm"],
-		"requires": "|Ravenwood Access| AND |Unicorn Way Complete| AND |Wizard City Library Access|"
-	},
-	{
-		"name": "Quest - Not so Welcome to Myth",
-		"region": "Ravenwood",
-		"category": ["Quest_Completion","Myth"],
-		"requires": "|Ravenwood Access| AND |Unicorn Way Complete| AND |Wizard City Library Access| AND |Hedge Maze Access|"
-	},
-	{
-		"name": "Quest - Introduction to Life",
-		"region": "Ravenwood",
-		"category": ["Quest_Completion","Life"],
-		"requires": "|Ravenwood Access| AND |Unicorn Way Complete|"
 	}
 ]

@@ -1,83 +1,172 @@
 {
-	"The Commons": 	{
-		"starting": true,
-		"connects_to": ["Unicorn Way","Ravenwood","Shopping District","Pet Pavilion","Golem Court","Wizard City Library","Your Home"],
-		"requires": []
-	},
-	"Unicorn Way": 	{
-		"connects_to": ["Hedge Maze","Blackhope Tower","The Archives","Your Home","The Commons","Duel Arena"],
-		"requires": []
-	},
-	"Hedge Maze": 	{
-		"connects_to": ["Unicorn Way","Your Home","The Commons"],
-		"requires": "|Hedge Maze Access|"
-	},
-	"Blackhope Tower": 	{
-		"connects_to": ["Unicorn Way","Your Home","The Commons"],
-		"requires": "|Blackhope Tower Access|"
-	},
-	"The Archives": 	{
-		"connects_to": ["Unicorn Way","Your Home","The Commons"],
-		"requires": "|The Archives Access|"
-	},
-	"Wizard City Library": 	{
-		"connects_to": ["The Commons","Your Home"],
-		"requires": "|Wizard City Library Access|"
-	},
-	"Ravenwood": 	{
-		"connects_to": ["The Commons","Your Home"],
-		"requires": "|Ravenwood Access|"
-	},
-	"Shopping District": 	{
-		"connects_to": ["The Commons","Olde Town","Your Home"],
-		"requires": "|Shopping District Access|"
-	},
-	"Olde Town": 	{
-		"connects_to": ["Triton Avenue","Shopping District","Caretaker's Tower","Your Home","The Commons"],
-		"requires": "|Olde Town Access|"
-	},
-	"Golem Court": 	{
-		"connects_to": ["The Commons","Your Home"],
-		"requires": "|Golem Court Access|"
-	},
-	"Caretaker's Tower": 	{
-		"connects_to": ["Olde Town","Your Home","The Commons"],
-		"requires": "|Caretaker's Tower Access|"
-	},
-	"Pet Pavilion": 	{
-		"connects_to": ["The Commons","Your Home"],
-		"requires": "|Pet Pavilion Access|"
-	},
-	"Triton Avenue": 	{
-		"connects_to": ["Olde Town","Haunted Cave","Galvanost Tower","Skull Fort","Kraken Isle","Your Home","The Commons"],
-		"requires": "|Triton Avenue Access|"
-	},
-	"Haunted Cave": 	{
-		"connects_to": ["Triton Avenue","Stormdrain Tower","Your Home","The Commons"],
-		"requires": "|Haunted Cave Access|"
-	},
-	"Galvanost Tower": 	{
-		"connects_to": ["Triton Avenue","Your Home","The Commons"],
-		"requires": "|Galvanost Tower Access|"
-	},
-	"Skull Fort": 	{
-		"connects_to": ["Triton Avenue","Your Home","The Commons"],
-		"requires": "|Skull Fort Access|"
-	},
-	"Kraken Isle": 	{
-		"connects_to": ["Triton Avenue","Your Home","The Commons"],
-		"requires": "|Kraken Isle Key Piece:5| AND |Triton Avenue Access|"
-	},
-	"Stormdrain Tower": 	{
-		"connects_to": ["Haunted Cave","Your Home","The Commons"],
-		"requires": "|Stormdrain Tower Access|"
-	},
-	"Your Home": 	{
-		"connects_to": ["Ravenwood","The Commons"],
-		"requires": "|Your Home Access|"
-	},
-	"Duel Arena": 	{
-		"connects_to": ["Unicorn Way","Your Home","The Commons"],
-		"requires": "|Duel Arena Access|"
-    }
+  "The Commons": {
+    "starting": true,
+    "connects_to": [
+      "Unicorn Way",
+      "Ravenwood",
+      "Shopping District",
+      "Pet Pavilion",
+      "Golem Court",
+      "Wizard City Library",
+      "Your Home"
+    ],
+    "requires": []
+  },
+  "Unicorn Way": {
+    "connects_to": [
+      "Hedge Maze",
+      "Blackhope Tower",
+      "The Archives",
+      "Your Home",
+      "The Commons",
+      "Duel Arena"
+    ],
+    "requires": []
+  },
+  "Hedge Maze": {
+    "connects_to": [
+      "Unicorn Way",
+      "Your Home",
+      "The Commons"
+    ],
+    "requires": "|Hedge Maze Access|"
+  },
+  "Blackhope Tower": {
+    "connects_to": [
+      "Unicorn Way",
+      "Your Home",
+      "The Commons"
+    ],
+    "requires": "|Blackhope Tower Access|"
+  },
+  "The Archives": {
+    "connects_to": [
+      "Unicorn Way",
+      "Your Home",
+      "The Commons"
+    ],
+    "requires": "|The Archives Access|"
+  },
+  "Wizard City Library": {
+    "connects_to": [
+      "The Commons",
+      "Your Home"
+    ],
+    "requires": "|Wizard City Library Access|"
+  },
+  "Ravenwood": {
+    "connects_to": [
+      "The Commons",
+      "Your Home"
+    ],
+    "requires": "|Ravenwood Access|"
+  },
+  "Shopping District": {
+    "connects_to": [
+      "The Commons",
+      "Olde Town",
+      "Your Home"
+    ],
+    "requires": "|Shopping District Access|"
+  },
+  "Olde Town": {
+    "connects_to": [
+      "Triton Avenue",
+      "Shopping District",
+      "Caretaker's Tower",
+      "Your Home",
+      "The Commons"
+    ],
+    "requires": "|Olde Town Access|"
+  },
+  "Golem Court": {
+    "connects_to": [
+      "The Commons",
+      "Your Home"
+    ],
+    "requires": "|Golem Court Access|"
+  },
+  "Caretaker's Tower": {
+    "connects_to": [
+      "Olde Town",
+      "Your Home",
+      "The Commons"
+    ],
+    "requires": "|Caretaker's Tower Access|"
+  },
+  "Pet Pavilion": {
+    "connects_to": [
+      "The Commons",
+      "Your Home"
+    ],
+    "requires": "|Pet Pavilion Access|"
+  },
+  "Triton Avenue": {
+    "connects_to": [
+      "Olde Town",
+      "Haunted Cave",
+      "Galvanost Tower",
+      "Skull Fort",
+      "Kraken Isle",
+      "Your Home",
+      "The Commons"
+    ],
+    "requires": "|Triton Avenue Access|"
+  },
+  "Haunted Cave": {
+    "connects_to": [
+      "Triton Avenue",
+      "Stormdrain Tower",
+      "Your Home",
+      "The Commons"
+    ],
+    "requires": "|Haunted Cave Access|"
+  },
+  "Galvanost Tower": {
+    "connects_to": [
+      "Triton Avenue",
+      "Your Home",
+      "The Commons"
+    ],
+    "requires": "|Galvanost Tower Access|"
+  },
+  "Skull Fort": {
+    "connects_to": [
+      "Triton Avenue",
+      "Your Home",
+      "The Commons"
+    ],
+    "requires": "|Skull Fort Access|"
+  },
+  "Kraken Isle": {
+    "connects_to": [
+      "Triton Avenue",
+      "Your Home",
+      "The Commons"
+    ],
+    "requires": "|Kraken Isle Key Piece:5| AND |Triton Avenue Access|"
+  },
+  "Stormdrain Tower": {
+    "connects_to": [
+      "Haunted Cave",
+      "Your Home",
+      "The Commons"
+    ],
+    "requires": "|Stormdrain Tower Access|"
+  },
+  "Your Home": {
+    "connects_to": [
+      "Ravenwood",
+      "The Commons"
+    ],
+    "requires": "|Your Home Access|"
+  },
+  "Duel Arena": {
+    "connects_to": [
+      "Unicorn Way",
+      "Your Home",
+      "The Commons"
+    ],
+    "requires": "|Duel Arena Access|"
+  }
 }

@@ -1,254 +1,346 @@
 [
-	{
-		"count": "5",
-		"name": "Kraken Isle Key Piece",
-		"category": ["Victory_Requirements","Logic_Only"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Unlock Hats",
-		"category": ["Equipment"],
-		"progression_skip_balancing": true
-	},
-	{
-		"count":1,
-		"name": "Unlock Robes",
-		"category": ["Equipment"],
-		"progression_skip_balancing": true
-	},
-	{
-		"count":1,
-		"name": "Unlock Boots",
-		"category": ["Equipment"],
-		"progression_skip_balancing": true
-	},
-	{
-		"count":1,
-		"name": "Unlock Wands",
-		"category": ["Equipment"],
-		"progression_skip_balancing": true
-	},
-	{
-		"count":1,
-		"name": "Unlock Athames",
-		"category": ["Equipment"],
-		"progression_skip_balancing": true
-	},
-	{
-		"count":1,
-		"name": "Unlock Amulets",
-		"category": ["Equipment"],
-		"progression_skip_balancing": true
-	},
-	{
-		"count":1,
-		"name": "Unlock Rings",
-		"category": ["Equipment"],
-		"progression_skip_balancing": true
-	},
-	{
-		"count":1,
-		"name": "Unlock Pets",
-		"category": ["Equipment"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Unlock Decks",
-		"category": ["Equipment"],
-		"progression_skip_balancing": true
-	},
-	{
-		"count":1,
-		"name": "Unlock Treasure Cards",
-		"category": ["Equipment"],
-		"useful": true
-	},
-	{
-		"count": "1",
-		"name": "Unlock Flasks",
-		"category": ["Equipment"],
-		"useful": true
-	},
-	{
-		"count":1,
-		"name": "Hedge Maze Access",
-		"category": ["Location_Access"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Blackhope Tower Access",
-		"category": ["Location_Access"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "The Archives Access",
-		"category": ["Location_Access"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Wizard City Library Access",
-		"category": ["Location_Access"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Ravenwood Access",
-		"category": ["Location_Access"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Your Home Access",
-		"category": ["Location_Access"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Shopping District Access",
-		"category": ["Location_Access"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Olde Town Access",
-		"category": ["Location_Access"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Golem Court Access",
-		"category": ["Location_Access"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Caretaker's Tower Access",
-		"category": ["Location_Access"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Pet Pavilion Access",
-		"category": ["Location_Access"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Triton Avenue Access",
-		"category": ["Location_Access"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Haunted Cave Access",
-		"category": ["Location_Access"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Galvanost Tower Access",
-		"category": ["Location_Access"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Skull Fort Access",
-		"category": ["Location_Access"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Stormdrain Tower Access",
-		"category": ["Location_Access"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Duel Arena Access",
-		"category": ["Location_Access"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Unicorn Way Complete",
-		"category": ["Logic_Only"],
-		"progression_skip_balancing": true
-	},
-	{
-		"count":1,
-		"name": "Triton Avenue Complete",
-		"category": ["Logic_Only"],
-		"progression_skip_balancing": true
-	},
-	{
-		"count": "5",
-		"name": "Flee Battle",
-		"category": ["Combat_Traps"],
-		"trap": true
-	},
-	{
-		"count": "5",
-		"name": "Discard Entire Hand",
-		"category": ["Combat_Traps"],
-		"trap": true
-	},
-	{
-		"count":1,
-		"name": "Unlock Mounts",
-		"category": ["Equipment"],
-		"useful": true
-	},
-	{
-		"count":1,
-		"name": "Caretaker's Tower Key",
-		"category": ["Location_Access"],
-		"progression": true
-	},
-	{
-		"count":1,
-		"name": "Unlock Fire Training Points",
-		"category": ["Equipment","Training_Points"],
-		"useful": true
-	},
-	{
-		"count":1,
-		"name": "Unlock Ice Training Points",
-		"category": ["Equipment","Training_Points"],
-		"useful": true
-	},
-	{
-		"count":1,
-		"name": "Unlock Storm Training Points",
-		"category": ["Equipment","Training_Points"],
-		"useful": true
-	},
-	{
-		"count":1,
-		"name": "Unlock Balance Training Points",
-		"category": ["Equipment","Training_Points"],
-		"useful": true
-	},
-	{
-		"count":1,
-		"name": "Unlock Myth Training Points",
-		"category": ["Equipment","Training_Points"],
-		"useful": true
-	},
-	{
-		"count":1,
-		"name": "Unlock Death Training Points",
-		"category": ["Equipment","Training_Points"],
-		"useful": true
-	},
-	{
-		"count":1,
-		"name": "Unlock Life Training Points",
-		"category": ["Equipment","Training_Points"],
-		"useful": true
-	}
+  {
+    "count": "5",
+    "name": "Kraken Isle Key Piece",
+    "category": [
+      "Victory_Requirements",
+      "Logic_Only"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Hats",
+    "category": [
+      "Equipment"
+    ],
+    "progression_skip_balancing": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Robes",
+    "category": [
+      "Equipment"
+    ],
+    "progression_skip_balancing": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Boots",
+    "category": [
+      "Equipment"
+    ],
+    "progression_skip_balancing": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Wands",
+    "category": [
+      "Equipment"
+    ],
+    "progression_skip_balancing": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Athames",
+    "category": [
+      "Equipment"
+    ],
+    "progression_skip_balancing": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Amulets",
+    "category": [
+      "Equipment"
+    ],
+    "progression_skip_balancing": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Rings",
+    "category": [
+      "Equipment"
+    ],
+    "progression_skip_balancing": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Pets",
+    "category": [
+      "Equipment"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Decks",
+    "category": [
+      "Equipment"
+    ],
+    "progression_skip_balancing": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Treasure Cards",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Unlock Flasks",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Hedge Maze Access",
+    "category": [
+      "Location_Access"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Blackhope Tower Access",
+    "category": [
+      "Location_Access"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "The Archives Access",
+    "category": [
+      "Location_Access"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Wizard City Library Access",
+    "category": [
+      "Location_Access"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Ravenwood Access",
+    "category": [
+      "Location_Access"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Your Home Access",
+    "category": [
+      "Location_Access"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Shopping District Access",
+    "category": [
+      "Location_Access"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Olde Town Access",
+    "category": [
+      "Location_Access"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Golem Court Access",
+    "category": [
+      "Location_Access"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Caretaker's Tower Access",
+    "category": [
+      "Location_Access"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Pet Pavilion Access",
+    "category": [
+      "Location_Access"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Triton Avenue Access",
+    "category": [
+      "Location_Access"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Haunted Cave Access",
+    "category": [
+      "Location_Access"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Galvanost Tower Access",
+    "category": [
+      "Location_Access"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Skull Fort Access",
+    "category": [
+      "Location_Access"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Stormdrain Tower Access",
+    "category": [
+      "Location_Access"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Duel Arena Access",
+    "category": [
+      "Location_Access"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unicorn Way Complete",
+    "category": [
+      "Logic_Only"
+    ],
+    "progression_skip_balancing": true
+  },
+  {
+    "count": 1,
+    "name": "Triton Avenue Complete",
+    "category": [
+      "Logic_Only"
+    ],
+    "progression_skip_balancing": true
+  },
+  {
+    "count": "5",
+    "name": "Flee Battle",
+    "category": [
+      "Combat_Traps"
+    ],
+    "trap": true
+  },
+  {
+    "count": "5",
+    "name": "Discard Entire Hand",
+    "category": [
+      "Combat_Traps"
+    ],
+    "trap": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Mounts",
+    "category": [
+      "Equipment"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Caretaker's Tower Key",
+    "category": [
+      "Location_Access"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Fire Training Points",
+    "category": [
+      "Equipment",
+      "Training_Points"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Ice Training Points",
+    "category": [
+      "Equipment",
+      "Training_Points"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Storm Training Points",
+    "category": [
+      "Equipment",
+      "Training_Points"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Balance Training Points",
+    "category": [
+      "Equipment",
+      "Training_Points"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Myth Training Points",
+    "category": [
+      "Equipment",
+      "Training_Points"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Death Training Points",
+    "category": [
+      "Equipment",
+      "Training_Points"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Life Training Points",
+    "category": [
+      "Equipment",
+      "Training_Points"
+    ],
+    "useful": true
+  }
 ]

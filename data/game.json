@@ -1,6 +1,7 @@
 {
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
   "game": "Wizard101FreeToPlay",
   "creator": "Garbo",
   "filler_item_name": "Gold",
-  "death_link": true
+  "starting_items": []
 }
